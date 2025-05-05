@@ -4,10 +4,6 @@ Vision Transformers for End-to-End Particle Reconstruction for the CMS Experimen
 <div align="center">
 
 
-The main purpose of this project
-is to explore the use of Vision Transformers in the domain of particle physics.</br>.</div>
-<p align="center"><img alt="GSoC Logo" src="images/GSoC.png" height = 400 ></p>
-
 ***
 
 ## Table of Contents
@@ -19,7 +15,6 @@ is to explore the use of Vision Transformers in the domain of particle physics.<
   * [Pipelines](#pipelines)
   * [Models](#models)
 - [Results](#results)
-  * [Inference](#inference)
 - [Notebooks and Docs](#notebooks-and-docs)
 - [References](#references)
 - [Acknowledgement](#acknowledgement)
