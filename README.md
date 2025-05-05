@@ -24,10 +24,11 @@ Vision Transformers for End-to-End Particle Reconstruction for the CMS Experimen
 ## Installation
 
 ```shell
-!git clone https://github.com/Abrar2652/GSOC.git
+!git clone https://github.com/Abrar2652/particle_reconstruction.git
 %mv GSOC Transformers
 %cd Transformers
 ```
+
 ## Abstract
 If the reader knows what they are dealing with, I would advise proceeding further.
 
@@ -39,19 +40,6 @@ data. We are using the following data and constructing images(jet images) out of
 Machine Learning to analyse(in our case Classify) them. Different types of detectors or sensors
 produce different kinds of data or, in our case, jet images.
 
-This a sample dataset in the Quark-Gluon dataset
-
-| HCAL | ECAL | TRACKS |
-| ---- | --- | --- |
-| ![nfs](./images/0.png) | ![nfs](./images/1.png) | ![nfs](./images/2.png) |
-
-
-This is a sample datapoint in the Top-Quark dataset
-
-
-| ![nfs](./images/0t.png) | ![nfs](./images/1t.png) | ![nfs](./images/2t.png) | ![nfs](./images/3t.png) |
-| ---- | --- | --- | --- |
-| ![nfs](./images/4t.png) | ![nfs](./images/5t.png) | ![nfs](./images/6t.png) | ![nfs](./images/7t.png) |
 
 ***
 ## Introduction
@@ -62,6 +50,7 @@ To see if our hypothesis is indeed true and the ViT are performing better we hav
 across two different datasets namely the **Quark-Gluon** dataset and the **Boosted Top-Quark** dataset.
 Since the two datasets were quite different from one another two different approaches were used in training
 and deploying them. The exact process is decribed below.
+
 
 ## Data Pre-processing
 ViTs are very sensitive to data pre-processing techniques. It has often been seen that even things like Image Interpolation Techniques, if not done properly, can adversely affect the performance of Transformers-based models. In our case, the data is directly sourced from CMS Open Data, and the outputs(pixel) can be arbitrarily large for a single detector(calorimeter) hence proper normalization techniques are employed.
@@ -78,8 +67,10 @@ The following tutorials will help the reader to generate the processed data for 
 - Boosted Top-Quark(TFRecord dataset)
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TuF7G06Tx9GpR4Sbou8hsSj9lXYPSCgk?usp=sharing)
 
+
 ## Training
 The Quark Gluon models are trained on a 2080Ti using Pytorch and the input data is in form of .png . While for the Top-Quark dataset we have used TPU-V3s for training. The models for Top-Quark dataset is written in Tensorflow and the input data is in form of TFRecords. The following diagrams best describe the input pipelines for both the types of datasets.
+
 
 ### Pipelines
 
@@ -102,6 +93,7 @@ The Quark Gluon models are trained on a 2080Ti using Pytorch and the input data 
   E1 -->F1[Feed the data to multiple TPU cores]
   end
 ```
+
 ### Models
 The we trained a bunch of different models to get a basic understanding of the problem which includes
 
@@ -146,6 +138,7 @@ The following Tutorial will help the reader to Train the models if they want
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XSIBSoA-Kc5fm4y_ixcXT1m4oAA2VA6T?usp=sharing)
 - Tutorial to train Hybrid EFFSwin(Tensorrflow-TPU)
   * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nuRAeiFltoWtVIPZN8JWJmEUI9GqnWVj?usp=sharing)
+
 
 ## Results
 
