@@ -1,8 +1,6 @@
 <h1 align="center">
 Vision Transformers for End-to-End Particle Reconstruction for the CMS Experiment</br>
 </h1>
-<div align="center">
-
 
 ***
 
