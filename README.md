@@ -23,7 +23,7 @@ End-to-End Particle Reconstruction for the CMS Experiment </br>
 
 ```shell
 !git clone https://github.com/Abrar2652/particle_reconstruction.git
-%mv GSOC Transformers
+%mv particle_reconstruction Transformers
 %cd Transformers
 ```
 
