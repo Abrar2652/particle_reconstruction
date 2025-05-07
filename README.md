@@ -61,9 +61,9 @@ Although the pre-processing is same for both the datasets but the input pipeline
 
 The following tutorials will help the reader to generate the processed data for training.
 - Quark-Gluon(.png type dataset)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1baX8Xk1vY6sD9_RaTSLwRq_lHZEHeS60?usp=sharing)
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z9nVN_4cusHeqbfAXwEpyQIaA9aX39-c?usp=sharing)
 - Boosted Top-Quark(TFRecord dataset)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TuF7G06Tx9GpR4Sbou8hsSj9lXYPSCgk?usp=sharing)
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nW_0II1LglT0VsG6T7pfxw-Yj4zVsUcl?usp=sharing)
 
 
 ## Training
@@ -128,14 +128,14 @@ F--Train for 30-50 epochs--> G[Trained Hybrid EffSwin]
 end
 ```
 The following Tutorial will help the reader to Train the models if they want
-- Tutorial to train CoAt-Net(Torch-GPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xqHt1HvcpmrKyQDm5Dh4VYAdA8AiLyBN?usp=sharing)
-- Tutorial to train CoAt-Net(Tensorflow-TPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/156iFYun9HkdOHABVKDYiZ0lT5HmBAcpW?usp=sharing)
-- Tutorial to train Hybrid EffSwin(Torch-GPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XSIBSoA-Kc5fm4y_ixcXT1m4oAA2VA6T?usp=sharing)
-- Tutorial to train Hybrid EFFSwin(Tensorrflow-TPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nuRAeiFltoWtVIPZN8JWJmEUI9GqnWVj?usp=sharing)
+- Tutorial to train CoAt-Net (Torch-GPU) | Quark Gluon
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V1KuH51gMnoe2IQtFvmXoXksjMfE7-R3?usp=sharing)
+- Tutorial to train CoAt-Net (Tensorflow-TPU) | Top Quark
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LlTpWHIDBX93lt0TGCgqfEcDIG8MGy9v?usp=sharing)
+- Tutorial to train Hybrid EffSwin (Torch-GPU) | Quark Gluon
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HLal9Ti9e4e5kttqmO0_KN8vehxlJIlm?usp=sharing)
+- Tutorial to train Hybrid EFFSwin (Tensorrflow-TPU) | Top Quark
+  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_lpHCXAl18HlnOCE4PkuYuV6qWeosQiA?usp=sharing)
 
 
 ## Results
@@ -149,20 +149,6 @@ We get the following results. All scores are ROC-AUC scores
 |   Hybrid-EffSwin   	|        81.44        	|       98.77       	|
 
 
-## Notebooks and Docs
-All the relevant notebooks are listed below
-- Tutorial for Dataset creation Quark-Gluon(.png type dataset)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1baX8Xk1vY6sD9_RaTSLwRq_lHZEHeS60?usp=sharing)
-- Tutorial for Dataset creation Boosted Top-Quark(TFRecord dataset)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TuF7G06Tx9GpR4Sbou8hsSj9lXYPSCgk?usp=sharing)
-- Tutorial to train CoAt-Net(Torch-GPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xqHt1HvcpmrKyQDm5Dh4VYAdA8AiLyBN?usp=sharing)
-- Tutorial to train CoAt-Net(Tensorflow-TPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/156iFYun9HkdOHABVKDYiZ0lT5HmBAcpW?usp=sharing)
-- Tutorial to train Hybrid EffSwin(Torch-GPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XSIBSoA-Kc5fm4y_ixcXT1m4oAA2VA6T?usp=sharing)
-- Tutorial to train Hybrid EFFSwin(Tensorrflow-TPU)
-  * [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nuRAeiFltoWtVIPZN8JWJmEUI9GqnWVj?usp=sharing)
 
 
 ## References
