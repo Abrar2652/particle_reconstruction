@@ -1,1 +1,0 @@
-The CoAt net is somewhat similar to this model in terms of its architecture. The only difference is that instead of using MobileNet V2 blocks we will try to use Efficient Net blocks in the same way as discussed in the CoAt-net paper.
