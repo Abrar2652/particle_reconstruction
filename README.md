@@ -1,5 +1,5 @@
 <h1 align="center">
-End-to-End Particle Reconstruction for the CMS Experiment </br>
+Vision Transformers for End-to-End Quark-Gluon Jet Classification from Calorimeter Images </br>
 </h1>
 
 ***
